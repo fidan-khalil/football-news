@@ -8,8 +8,8 @@ def show_main(request):
     news_list = News.objects.all()
 
     context = {
-        'npm' : '240123456',
-        'name': 'Haru Urara',
+        'npm' : '2406408501',
+        'name': 'Fidan Khalil Salman',
         'class': 'PBP A',
         'news_list': news_list
     }
